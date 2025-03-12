@@ -1,0 +1,62 @@
+/* Write your CSS Code here *//* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+.header_div {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #e3efff;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Navigation Bar */
+#nav_div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #dbe9ff;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Buttons Styling */
+.nav_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav_button:hover {
+    background-color: #0056b3;
+}
+
+/* Content Section */
+.content_div {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+/* iframe Styling */
+iframe {
+    width: 80%;
+    height: 500px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
